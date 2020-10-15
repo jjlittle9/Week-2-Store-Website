@@ -1,29 +1,45 @@
 <html>
   <head>
     <title>Board Game Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet"> 
     <style>
+      body {
+        background-image: url("fake_luxury.png");
+      }
       img {
-        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
         height: 300px;
       }
-
-      p img {
-        width: 100px;
-        height: 100px;
-        margin-left: auto;
+      
+      #layout {
+        margin: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
       }
       
-      #item p {
-        margin-left: auto;
+      #layout img {
+        height: 200px;
+        width: 200px;
       }
 
-      #item ul {
+      #layout p {
+        padding-left: 200px;
+        padding-right: 200px;
         text-align: center;
-        margin-left: auto;
       }
 
-      #item {
-        margin: auto;
+      #layout li {
+        text-justify: left;
+      }
+      
+      nav {
+        display: inline;
+        padding-right: 50px;
+        padding-left: 5px;
       }
 
     </style>
@@ -31,56 +47,50 @@
   <body>
     <img src="header.jpg">
 
+    <div id="layout">
+      
     <nav>
-      <p><a href="index.html">Home</a></p>
-      <p><a href="detail.html">Detail Page</a></p>
-      <p><a href="about_us.html">About us</a></p>
+      <a href="index.html">Home</a>
+      <a href="more_info.html">More Info</a>
+      <a href="about_us.html">About us</a>
     </nav>
 
+      <p><img src="catan.jpg"></p>
     
-    <p><img src="catan.jpg"></p>
-
-    <div id="item"></div>
-    <p>Catan is a strategy meeple placement game. for 3-4 players.</p>
-    
-    <ul>
-      <li>Strategy</li>
-      <li>Resource Management</li>
-      <li>Network and Route Building</li>
-    </ul>
-
-    <a href="detail.html">More details</a>
-    </div>
-
-    
-      <p><img src="wonders.jpg"></p>
-
-      <div id="item"></div>
-      <p>7 Wonders is a city building card game. for 2-7 players.</p>
+      <p>Catan is a strategy meeple placement game. for 3-4 players.</p>
       
       <ul>
         <li>Strategy</li>
-        <li>City Building</li>
-        <li>Economic</li>
+        <li>Resource Management</li>
+        <li>Network and Route Building</li>
       </ul>
-  
-      <a href="detail.html">More details</a>
-      </div>
 
+      <a href="more_info.html">More Info</a>
       
-        <p><img src="pandemic.jpg"></p>
+      <p><img src="wonders.jpg"></p>
 
-        <div id="item"></div>
-        <p>pandemic is a cooperative strategy game. for players 2-4.</p>
+      <p>7 Wonders is a city building card game. for 2-7 players.</p>
         
+        <ul>
+          <li>Strategy</li>
+          <li>City Building</li>
+          <li>Economic</li>
+        </ul>
+    
+      <a href="more_info.html">More Info</a>
+        
+      <p><img src="pandemic.jpg"></p>
+
+      <p>pandemic is a cooperative strategy game. for players 2-4.</p>
+          
         <ul>
           <li>Cooperative</li>
           <li>Point to Point Movement</li>
           <li>Trading</li>
         </ul>
-    
-        <a href="detail.html">More details</a>
-        </div>
+      
+        <a href="more_info.html">More Info</a>
+    </div>
   
   </body>
 </html>
